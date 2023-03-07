@@ -1,3 +1,12 @@
+create a new branch and push to remove :-
 git branch branch_name
 git push -u origin branch_name
 
+delete branch locally : 
+git branch -d localBranchName
+
+delete branch remotely:
+git push origin --delete remoteBranchName
+
+Try to synchronize your branch list using:
+git fetch -p
